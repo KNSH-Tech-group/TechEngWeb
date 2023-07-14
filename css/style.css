@@ -12416,7 +12416,7 @@ code {
 .navbar .page-title {
   max-width: 50px;
   text-overflow: ellipsis;
-  overflow: hidden;
+  /*overflow: hidden;*/
   text-transform: capitalize;
   color: #2f2f2f;
   font-size: 1.125rem;
