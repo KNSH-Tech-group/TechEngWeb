@@ -632,7 +632,7 @@ pre code {
   }
   .empty-block {
     display: block;
-    height: 3em;
+    height: 5em;
   }
 }
 @media (max-width: 576px) {
@@ -11983,7 +11983,7 @@ button {
 }
 @media (min-width: 992px) {
   .card-mini {
-    margin-bottom: 65px;
+    margin-bottom: 45px;
   }
 }
 .card-mini .card-header h2 {
