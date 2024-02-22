@@ -248,10 +248,14 @@
                    <form method="post" action="https://sheetdb.io/api/v1/jie9jz53ic726" id="sheetdb-form">
                     <p class="form-introduce">新增雙語例句建議： </p>  
                     <textarea class="form-textarea" rows="5" cols="50" name="data[回應內容]" placeholder="請在此輸入文字..." required=""></textarea><br>
+                   <!--  <input type="date" name="data[回傳時間]" style="display: block;" id="DateNow"> -->
                     <button class="form-button" type="submit">送出</button>
                   </form>
                 </div>
                 <script>
+                  // var NowDate = new Date();
+                  // document.getElementById("DateNow").innerHTML = NowDate;
+
                   var form = document.getElementById('sheetdb-form');
                   form.addEventListener("submit", e => {
                     e.preventDefault();
